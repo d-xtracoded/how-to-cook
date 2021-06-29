@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/pixx"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc"
+        android:layout_gravity="center_horizontal"
+        android:text="Abdulrahman Abdulrazaq"
+        android:textColor="#d33d"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cd1"
+        android:layout_gravity="center_horizontal"
+        android:text="About: Android, Web and App Developer"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:layout_gravity="center_horizontal"
+        android:text="Skills: Java, Kotlin, Visual basic, Html, Jquery, API"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc2"
+        android:layout_gravity="center_horizontal"
+        android:text="Mobile: 07061946739"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cc1"
+        android:layout_gravity="center_horizontal"
+        android:text="Email: Abdulrahmanabdulrazaq5@gmail.com"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+
+        />
+</LinearLayout>

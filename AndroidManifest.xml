@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.prime.food.howtocook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher11"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+            <meta-data
+                 android:name="android.support.PARENT_ACTIVITY"
+                 android:value="com.prime.food.howtocook.MainActivity"/>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3895242033285544~3468569587"/>
+           <meta-data
+                android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+                android:value="true" />
+
+        <activity
+            android:name="com.prime.food.howtocook.MainActivity"
+            android:configChanges="keyboard|smallestScreenSize|orientation|uiMode|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prime.food.howtocook.FoodDetailActivity"
+            android:configChanges="uiMode|orientation|keyboard|keyboardHidden|screenLayout|smallestScreenSize|screenSize"
+            android:parentActivityName="com.prime.food.howtocook.MainActivity" />
+        <activity android:name="com.prime.food.howtocook.AboutActivity"
+            android:label="About App"/>
+
+
+    </application>
+
+</manifest>
