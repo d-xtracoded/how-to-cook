@@ -1,1 +1,1 @@
-# how-to-cook nihgerian dish
+# how-to-cook nigerian dish
